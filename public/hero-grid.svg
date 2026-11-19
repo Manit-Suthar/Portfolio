@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="smallGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(34,197,94,0.06)" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="bigGrid" width="200" height="200" patternUnits="userSpaceOnUse">
+      <rect width="200" height="200" fill="url(#smallGrid)"/>
+      <path d="M 200 0 L 0 0 0 200" fill="none" stroke="rgba(34,197,94,0.1)" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="greenGlow" cx="20%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="rgba(34,197,94,0.14)"/>
+      <stop offset="100%" stop-color="rgba(34,197,94,0)"/>
+    </radialGradient>
+    <radialGradient id="purpleGlow" cx="80%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="rgba(84,37,166,0.18)"/>
+      <stop offset="100%" stop-color="rgba(84,37,166,0)"/>
+    </radialGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="55%" r="40%">
+      <stop offset="0%" stop-color="rgba(34,197,94,0.05)"/>
+      <stop offset="100%" stop-color="rgba(8,9,13,0)"/>
+    </radialGradient>
+    <linearGradient id="bottomFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="40%" stop-color="rgba(8,9,13,0)"/>
+      <stop offset="100%" stop-color="rgba(8,9,13,1)"/>
+    </linearGradient>
+    <!-- Dot accent pattern -->
+    <pattern id="dots" width="80" height="80" patternUnits="userSpaceOnUse">
+      <circle cx="40" cy="40" r="0.8" fill="rgba(34,197,94,0.25)"/>
+    </pattern>
+  </defs>
+  <!-- Grid -->
+  <rect width="1440" height="900" fill="url(#bigGrid)"/>
+  <!-- Dot overlay -->
+  <rect width="1440" height="900" fill="url(#dots)" opacity="0.6"/>
+  <!-- Ambient glows -->
+  <rect width="1440" height="900" fill="url(#greenGlow)"/>
+  <rect width="1440" height="900" fill="url(#purpleGlow)"/>
+  <rect width="1440" height="900" fill="url(#centerGlow)"/>
+  <!-- Corner accent lines -->
+  <line x1="0" y1="0" x2="120" y2="0" stroke="rgba(34,197,94,0.3)" stroke-width="1"/>
+  <line x1="0" y1="0" x2="0" y2="120" stroke="rgba(34,197,94,0.3)" stroke-width="1"/>
+  <line x1="1440" y1="0" x2="1320" y2="0" stroke="rgba(84,37,166,0.3)" stroke-width="1"/>
+  <line x1="1440" y1="0" x2="1440" y2="120" stroke="rgba(84,37,166,0.3)" stroke-width="1"/>
+  <!-- Perspective grid accent at bottom -->
+  <g opacity="0.08" stroke="rgba(34,197,94,0.8)" stroke-width="0.5">
+    <line x1="720" y1="600" x2="0" y2="900"/>
+    <line x1="720" y1="600" x2="240" y2="900"/>
+    <line x1="720" y1="600" x2="480" y2="900"/>
+    <line x1="720" y1="600" x2="960" y2="900"/>
+    <line x1="720" y1="600" x2="1200" y2="900"/>
+    <line x1="720" y1="600" x2="1440" y2="900"/>
+    <line x1="0" y1="750" x2="1440" y2="750"/>
+    <line x1="0" y1="830" x2="1440" y2="830"/>
+    <line x1="0" y1="880" x2="1440" y2="880"/>
+  </g>
+  <!-- Bottom fade to background color -->
+  <rect width="1440" height="900" fill="url(#bottomFade)"/>
+</svg>
