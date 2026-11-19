@@ -117,7 +117,7 @@ export const PORTFOLIO_DATA = {
   },
 
   githubLiveFallback: {
-    publicRepos: 19,
+    publicRepos: 20,
     followers: 0,
     following: 0,
     totalStars: 0,
@@ -147,6 +147,8 @@ export const PORTFOLIO_DATA = {
       images: [
         "/experience/shree-boutique-1.png",
         "/experience/shree-boutique-2.png",
+        "/experience/shree-boutique-3.png",
+        "/experience/shree-boutique-4.png",
       ],
     },
   ] as ExperienceItem[],

@@ -172,9 +172,9 @@ export default function Experience() {
                     />
                   ))}
                 </div>
-                <span className="text-[10px] font-mono text-[#9298A7]">
+                {/* <span className="text-[10px] font-mono text-[#9298A7]">
                   Auto-rotates every 4.5s
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
