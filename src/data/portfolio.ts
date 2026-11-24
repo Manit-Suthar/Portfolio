@@ -175,8 +175,8 @@ export const PORTFOLIO_DATA = {
         "/projects/greenfleet-2.png",
       ],
       isPlaceholder: true,
-      demoUrl: null,
-      githubUrl: null,
+      demoUrl: "https://youtu.be/ysMFmjGs9jk",
+      githubUrl: "https://github.com/jaybardolia/GreenFleet.git",
     },
     {
       id: "ecovision",
@@ -202,7 +202,7 @@ export const PORTFOLIO_DATA = {
       ],
       mobileImages: true,
       isPlaceholder: true,
-      demoUrl: null,
+      demoUrl: "https://youtu.be/skNBeDy5lrs?si=HNZbzLva0rO6Yyw9&t=20",
       githubUrl: "https://github.com/Manit-Suthar/EcoVision---Smart-Waste-Segregation-Circular-Economy",
     },
     {
@@ -359,7 +359,7 @@ export const PORTFOLIO_DATA = {
         "Low-bandwidth multilingual digital literacy chatbot supporting Gujarati, Hindi, and English with Web Speech API voice input.",
       stack: ["React", "Node.js", "Express.js", "Web Speech API"],
       demoUrl: null,
-      githubUrl: null,
+      githubUrl: "https://github.com/Manit-Suthar/TechVidhya.git",
     },
     {
       id: "googleformsolver",
